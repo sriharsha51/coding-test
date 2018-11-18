@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  domain: ""
+  domain: "https://json-server-coding-test.herokuapp.com/"
 };
