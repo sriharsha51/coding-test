@@ -64,6 +64,7 @@ export class UserComponent implements OnInit {
     }
     this._usersService.updateUser(this.selectedUser.id, user).subscribe(data => {
       console.log(data);
+      this.cancel();
     });
   }
 
