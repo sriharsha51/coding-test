@@ -1,0 +1,39 @@
+.wrapper {
+    background: #eeeeee;
+    box-shadow: 3px 3px 3px #dddddd;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    height: 60px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    li  {
+        padding: 20px;
+    }
+    
+    .username {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .logout {
+        cursor: pointer;
+    }
+
+    .welcome {
+        display: block;
+        margin: 0 auto;
+        font-weight: bold;
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,62 @@
+<div class="wrapper">
+  <h2>Edit User</h2>
+  <form [formGroup]="userForm" novalidate>
+    <div>
+      <label for="firstName">First Name</label>
+      <input type="text" name="firstName" formControlName="firstName">
+    </div>  
+    <div>
+        <label for="firstName">Last Name</label>
+        <input type="text" name="lastName" formControlName="lastName">
+    </div>
+    <div>
+        <label for="firstName">Amount(cents)</label>
+        <input type="text" name="amount" formControlName="amount">
+    </div>
+    <div>
+        <label for="firstName">Currency</label>
+        <input type="text" name="currency" formControlName="currency">
+    </div>
+    <div>
+        <label for="firstName">Street</label>
+        <input type="text" name="street" formControlName="street">
+    </div>
+    <div>
+        <label for="firstName">Apt</label>
+        <input type="number" name="apt" formControlName="apt">
+    </div>
+    <div>
+        <label for="firstName">City</label>
+        <input type="text" name="city" formControlName="city">
+    </div>
+    <div>
+        <label for="firstName">State</label>
+        <input type="text" name="state" formControlName="state">
+    </div>
+    <div>
+        <label for="firstName">Zip</label>
+        <input type="number" name="zip" formControlName="zip">
+    </div>
+  </form>
+  <div class="button-group">
+    <button (click)="save()">Save</button>
+    <button (click)="openModal()">Delete</button>
+    <button (click)="cancel()">Cancel</button>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div #myModal class="modal">
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span (click)="closeModal()" class="close">&times;</span>
+      <h2>Delete User?</h2>
+    </div>
+    <div class="modal-body button-group">
+        <button (click)="delete()">Delete</button>
+        <button (click)="closeModal()">Cancel</button>
+    </div>
+  </div>
+
+</div>

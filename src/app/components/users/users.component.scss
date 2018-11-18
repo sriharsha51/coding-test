@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+}
+
+img {
+    height: 30px;
+}
+
+tr {
+    cursor: pointer;
+}
+
+th, td {
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+tr:hover {
+    background: #eeeeee;
+}
+
+input {
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    margin: 10px auto;
+}

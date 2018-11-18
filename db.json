@@ -1,0 +1,157 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "picture": "assets/images/profile-picture.png",
+      "firstName": "Cindy",
+      "lastName": "Mueller",
+      "address": {
+        "apt": 603,
+        "street": "Glenwood Road",
+        "city": "Muir",
+        "state": "New Mexico",
+        "zip": 23299
+      },
+      "orderTotal": {
+        "amount": 690,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 2,
+      "picture": "assets/images/profile-picture.png",
+      "firstName": "Claudia",
+      "lastName": "Cherry",
+      "address": {
+        "apt": 540,
+        "street": "Hendrickson Street",
+        "city": "Chautauqua",
+        "state": "Arkansas",
+        "zip": 44326
+      },
+      "orderTotal": {
+        "amount": 1500,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 3,
+      "picture": "assets/images/profile-picture.png",
+      "firstName": "John",
+      "lastName": "Doe",
+      "address": {
+        "apt": 909,
+        "street": "Norwood Avenue",
+        "city": "Moscow",
+        "state": "South Carolina",
+        "zip": 43845
+      },
+      "orderTotal": {
+        "amount": 1130,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 4,
+      "picture": "assets/images/profile-picture.png",
+      "firstName": "David",
+      "lastName": "Thomas",
+      "address": {
+        "apt": 909,
+        "street": "Norwood Avenue",
+        "city": "Moscow",
+        "state": "South Carolina",
+        "zip": 43845
+      },
+      "orderTotal": {
+        "amount": 1930,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 5,
+      "picture": "assets/images/profile-picture.png",
+      "firstName": "Chasity",
+      "lastName": "Reid",
+      "address": {
+        "apt": 909,
+        "street": "Norwood Avenue",
+        "city": "Moscow",
+        "state": "South Carolina",
+        "zip": 43845
+      },
+      "orderTotal": {
+        "amount": 1030,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 6,
+      "picture": "assets/images/profile-picture.png",
+      "firstName": "Mejia",
+      "lastName": "Dukeee",
+      "address": {
+        "apt": 144,
+        "street": "Adams Street",
+        "city": "Stagecoach",
+        "state": "Pennsylvania",
+        "zip": 68025
+      },
+      "orderTotal": {
+        "amount": 1050,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 7,
+      "picture": "assets/images/profile-picture.png",
+      "firstName": "Norton",
+      "lastName": "Dixona",
+      "address": {
+        "apt": 460,
+        "street": "Mill Street",
+        "city": "Fowlerville",
+        "state": "New York",
+        "zip": 23706
+      },
+      "orderTotal": {
+        "amount": 1040,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 8,
+      "picture": "assets/images/profile-picture.png",
+      "firstName": "Liz",
+      "lastName": "Herringa",
+      "address": {
+        "apt": 583,
+        "street": "Utica Avenue",
+        "city": "Snowville",
+        "state": "Alaska",
+        "zip": 85035
+      },
+      "orderTotal": {
+        "amount": 1060,
+        "currency": "USD"
+      }
+    },
+    {
+      "id": 9,
+      "picture": "assets/images/profile-picture.png",
+      "firstName": "Jones",
+      "lastName": "Hopper",
+      "address": {
+        "apt": 645,
+        "street": "Hunterfly Place",
+        "city": "Osmond",
+        "state": "Puerto Rico",
+        "zip": 57406
+      },
+      "orderTotal": {
+        "amount": 1800,
+        "currency": "USD"
+      }
+    }
+  ]
+}

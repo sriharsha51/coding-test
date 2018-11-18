@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <ul>
+    <li *ngIf="!inLoginPage" class="username">
+      {{username}}
+    </li>
+    <li *ngIf="inLoginPage" class="welcome">
+      Welcome
+    </li>
+    <li *ngIf="!inLoginPage" class="logout" (click)="logout()">
+      Logout  
+    </li>
+  </ul>
+</div>
